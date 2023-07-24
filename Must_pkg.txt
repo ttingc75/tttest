@@ -1,0 +1,388 @@
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                                                        Version                                                      Architecture Description
++++-===========================================================-============================================================-============-===============================================================================
+ii  adduser                                                     3.118                                                        all          add and remove users and groups
+ii  apt                                                         1.8.2.3                                                      amd64        commandline package manager
+ii  base-files                                                  10.3+deb10u13                                                amd64        Debian base system miscellaneous files
+ii  base-passwd                                                 3.5.46                                                       amd64        Debian base system master password and group files
+ii  bash                                                        5.0-4                                                        amd64        GNU Bourne Again SHell
+ii  binfmt-support                                              2.2.0-2                                                      amd64        Support for extra binary formats
+ii  binutils                                                    2.31.1-16                                                    amd64        GNU assembler, linker and binary utilities
+ii  binutils-common:amd64                                       2.31.1-16                                                    amd64        Common files for the GNU assembler, linker and binary utilities
+ii  binutils-x86-64-linux-gnu                                   2.31.1-16                                                    amd64        GNU binary utilities, for x86-64-linux-gnu target
+ii  bsdutils                                                    1:2.33.1-0.1                                                 amd64        basic utilities from 4.4BSD-Lite
+ii  bzip2                                                       1.0.6-9.2~deb10u2                                            amd64        high-quality block-sorting file compressor - utilities
+ii  ca-certificates                                             20200601~deb10u2                                             all          Common CA certificates
+ii  ca-certificates-mono                                        6.12.0.182-0xamarin1+debian10b1                              all          Common CA certificates (Mono keystore)
+ii  cli-common                                                  0.10xamarin5+debian10b1                                      all          common files between all CLI packages
+ii  coreutils                                                   8.30-3                                                       amd64        GNU core utilities
+ii  curl                                                        7.64.0-4+deb10u6                                             amd64        command line tool for transferring data with URL syntax
+ii  dash                                                        0.5.10.2-5                                                   amd64        POSIX-compliant shell
+ii  debconf                                                     1.5.71+deb10u1                                               all          Debian configuration management system
+ii  debian-archive-keyring                                      2019.1+deb10u1                                               all          GnuPG archive keys of the Debian archive
+ii  debianutils                                                 4.8.6.1                                                      amd64        Miscellaneous utilities specific to Debian
+ii  diffutils                                                   1:3.7-3                                                      amd64        File comparison utilities
+ii  dpkg                                                        1.19.8                                                       amd64        Debian package management system
+ii  e2fsprogs                                                   1.44.5-1+deb10u3                                             amd64        ext2/ext3/ext4 file system utilities
+ii  fdisk                                                       2.33.1-0.1                                                   amd64        collection of partitioning utilities
+ii  file                                                        1:5.35-4+deb10u2                                             amd64        Recognize the type of data in a file using "magic" numbers
+ii  findutils                                                   4.6.0+git+20190209-2                                         amd64        utilities for finding files--find, xargs
+ii  fontconfig-config                                           2.13.1-2                                                     all          generic font configuration library - configuration
+ii  fonts-dejavu-core                                           2.37-1                                                       all          Vera font family derivate with additional characters
+ii  fsharp                                                      5.0.0.0-0xamarin15+debian10b1                                all          functional-first programming language - compiler for the CLI
+ii  gcc-8-base:amd64                                            8.3.0-6                                                      amd64        GCC, the GNU Compiler Collection (base package)
+ii  geoip-database                                              20181108-1                                                   all          IP lookup command line tools that use the GeoIP library (country database)
+ii  gpgv                                                        2.2.12-1+deb10u2                                             amd64        GNU privacy guard - signature verification tool
+ii  grep                                                        3.3-1                                                        amd64        GNU grep, egrep and fgrep
+ii  gzip                                                        1.9-3+deb10u1                                                amd64        GNU compression utilities
+ii  hostname                                                    3.21                                                         amd64        utility to set/show the host name or domain name
+ii  init-system-helpers                                         1.56+nmu1                                                    all          helper tools for all init systems
+ii  iproute2                                                    4.20.0-2+deb10u1                                             amd64        networking and traffic control tools
+ii  krb5-locales                                                1.17-3+deb10u5                                               all          internationalization support for MIT Kerberos
+ii  libacl1:amd64                                               2.2.53-4                                                     amd64        access control list - shared library
+ii  libapt-pkg5.0:amd64                                         1.8.2.3                                                      amd64        package management runtime library
+ii  libatm1:amd64                                               1:2.5.1-2                                                    amd64        shared library for ATM (Asynchronous Transfer Mode)
+ii  libattr1:amd64                                              1:2.4.48-4                                                   amd64        extended attribute handling - shared library
+ii  libaudit-common                                             1:2.8.4-3                                                    all          Dynamic library for security auditing - common files
+ii  libaudit1:amd64                                             1:2.8.4-3                                                    amd64        Dynamic library for security auditing
+ii  libbinutils:amd64                                           2.31.1-16                                                    amd64        GNU binary utilities (private shared library)
+ii  libblkid1:amd64                                             2.33.1-0.1                                                   amd64        block device ID library
+ii  libbsd0:amd64                                               0.9.1-2+deb10u1                                              amd64        utility functions from BSD systems - shared library
+ii  libbz2-1.0:amd64                                            1.0.6-9.2~deb10u2                                            amd64        high-quality block-sorting file compressor library - runtime
+ii  libc-bin                                                    2.28-10+deb10u2                                              amd64        GNU C Library: Binaries
+ii  libc6:amd64                                                 2.28-10+deb10u2                                              amd64        GNU C Library: Shared libraries
+ii  libcairo2:amd64                                             1.16.0-4+deb10u1                                             amd64        Cairo 2D vector graphics library
+ii  libcap-ng0:amd64                                            0.7.9-2                                                      amd64        An alternate POSIX capabilities library
+ii  libcap2:amd64                                               1:2.25-2                                                     amd64        POSIX 1003.1e capabilities (library)
+ii  libcap2-bin                                                 1:2.25-2                                                     amd64        POSIX 1003.1e capabilities (utilities)
+ii  libcom-err2:amd64                                           1.44.5-1+deb10u3                                             amd64        common error description library
+ii  libcurl4:amd64                                              7.64.0-4+deb10u6                                             amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libdb5.3:amd64                                              5.3.28+dfsg1-0.5                                             amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdebconfclient0:amd64                                     0.249                                                        amd64        Debian Configuration Management System (C-implementation library)
+ii  libdpkg-perl                                                1.19.8                                                       all          Dpkg perl modules
+ii  libelf1:amd64                                               0.176-1.1                                                    amd64        library to read and write ELF files
+ii  libexif12:amd64                                             0.6.21-5.1+deb10u5                                           amd64        library to parse EXIF files
+ii  libexpat1:amd64                                             2.2.6-2+deb10u6                                              amd64        XML parsing C library - runtime library
+ii  libext2fs2:amd64                                            1.44.5-1+deb10u3                                             amd64        ext2/ext3/ext4 file system libraries
+ii  libfdisk1:amd64                                             2.33.1-0.1                                                   amd64        fdisk partitioning library
+ii  libffi6:amd64                                               3.2.1-9                                                      amd64        Foreign Function Interface library runtime
+ii  libfile-fcntllock-perl                                      0.22-3+b5                                                    amd64        Perl module for file locking with fcntl(2)
+ii  libfontconfig1:amd64                                        2.13.1-2                                                     amd64        generic font configuration library - runtime
+ii  libfpm-helper0                                              4.7.1-0xamarin3+debian10b1                                   amd64        ASP.NET backend for FastCGI Process Manager - helper lib
+ii  libfreetype6:amd64                                          2.9.1-3+deb10u3                                              amd64        FreeType 2 font engine, shared library files
+ii  libfsharp-core5.0-cil                                       5.0.0.0-0xamarin15+debian10b1                                all          functional-first programming language - core runtime library
+ii  libgcc1:amd64                                               1:8.3.0-6                                                    amd64        GCC support library
+ii  libgcrypt20:amd64                                           1.8.4-5+deb10u1                                              amd64        LGPL Crypto library - runtime library
+ii  libgd3:amd64                                                2.2.5-5.2                                                    amd64        GD Graphics Library
+ii  libgdbm-compat4:amd64                                       1.18.1-4                                                     amd64        GNU dbm database routines (legacy support runtime version) 
+ii  libgdbm6:amd64                                              1.18.1-4                                                     amd64        GNU dbm database routines (runtime version) 
+ii  libgdiplus                                                  6.0.5-0xamarin1+debian10b1                                   amd64        interface library for System.Drawing of Mono
+ii  libgeoip1:amd64                                             1.6.12-1                                                     amd64        non-DNS IP-to-country resolver library
+ii  libgif7:amd64                                               5.1.4-3+deb10u1                                              amd64        library for GIF images (library)
+ii  libglib2.0-0:amd64                                          2.58.3-2+deb10u4                                             amd64        GLib library of C routines
+ii  libglib2.0-data                                             2.58.3-2+deb10u4                                             all          Common files for GLib library
+ii  libgmp10:amd64                                              2:6.1.2+dfsg-4+deb10u1                                       amd64        Multiprecision arithmetic library
+ii  libgnutls30:amd64                                           3.6.7-4+deb10u10                                             amd64        GNU TLS library - main runtime library
+ii  libgpg-error0:amd64                                         1.35-1                                                       amd64        GnuPG development runtime library
+ii  libgssapi-krb5-2:amd64                                      1.17-3+deb10u5                                               amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libhiredis0.14:amd64                                        0.14.0-3                                                     amd64        minimalistic C client library for Redis
+ii  libhogweed4:amd64                                           3.4.1-1+deb10u1                                              amd64        low level cryptographic library (public-key cryptos)
+ii  libicu63:amd64                                              63.1-6+deb10u3                                               amd64        International Components for Unicode
+ii  libidn2-0:amd64                                             2.0.5-1+deb10u1                                              amd64        Internationalized domain names (IDNA2008/TR46) library
+ii  libjbig0:amd64                                              2.1-3.1+b2                                                   amd64        JBIGkit libraries
+ii  libjpeg62-turbo:amd64                                       1:1.5.2-2+deb10u1                                            amd64        libjpeg-turbo JPEG runtime library
+ii  libk5crypto3:amd64                                          1.17-3+deb10u5                                               amd64        MIT Kerberos runtime libraries - Crypto Library
+ii  libkeyutils1:amd64                                          1.6-6                                                        amd64        Linux Key Management Utilities (library)
+ii  libkrb5-3:amd64                                             1.17-3+deb10u5                                               amd64        MIT Kerberos runtime libraries
+ii  libkrb5support0:amd64                                       1.17-3+deb10u5                                               amd64        MIT Kerberos runtime libraries - Support library
+ii  libldap-2.4-2:amd64                                         2.4.47+dfsg-3+deb10u7                                        amd64        OpenLDAP libraries
+ii  libldap-common                                              2.4.47+dfsg-3+deb10u7                                        all          OpenLDAP common files for libraries
+ii  liblocale-gettext-perl                                      1.07-3+b4                                                    amd64        module using libc functions for internationalization in Perl
+ii  libluajit-5.1-2:amd64                                       2.1.0~beta3+dfsg-5.1                                         amd64        Just in time compiler for Lua - library version
+ii  libluajit-5.1-common                                        2.1.0~beta3+dfsg-5.1                                         all          Just in time compiler for Lua - common files
+ii  liblz4-1:amd64                                              1.8.3-1+deb10u1                                              amd64        Fast LZ compression algorithm library - runtime
+ii  liblzma5:amd64                                              5.2.4-1+deb10u1                                              amd64        XZ-format compression library
+ii  libmagic-mgc                                                1:5.35-4+deb10u2                                             amd64        File type determination library using "magic" numbers (compiled magic file)
+ii  libmagic1:amd64                                             1:5.35-4+deb10u2                                             amd64        Recognize the type of data in a file using "magic" numbers - library
+ii  libmnl0:amd64                                               1.0.4-2                                                      amd64        minimalistic Netlink communication library
+ii  libmono-2.0-dev                                             6.12.0.182-0xamarin1+debian10b1                              amd64        Mono JIT library - Development files (Default version)
+ii  libmono-accessibility4.0-cil                                6.12.0.182-0xamarin1+debian10b1                              all          Mono Accessibility library (for CLI 4.0)
+ii  libmono-btls-interface4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              amd64        Mono Mono.Btls.Interface library (for CLI 4.0)
+ii  libmono-cairo4.0-cil                                        6.12.0.182-0xamarin1+debian10b1                              all          Mono Cairo library (for CLI 4.0)
+ii  libmono-cecil-private-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono.Cecil library
+ii  libmono-cecil-vb0.9-cil                                     4.7-0xamarin3+debian10b1                                     all          Visual Basic 2012 Cecil libraries for Mono
+ii  libmono-cil-dev                                             6.12.0.182-0xamarin1+debian10b1                              all          Mono Base Class Libraries (BCL) - Development files
+ii  libmono-codecontracts4.0-cil                                6.12.0.182-0xamarin1+debian10b1                              all          Mono.CodeContracts library (for CLI 4.0)
+ii  libmono-compilerservices-symbolwriter4.0-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono.CompilerServices.SymbolWriter library (for CLI 4.0)
+ii  libmono-corlib4.5-cil                                       6.12.0.182-0xamarin1+debian10b1                              all          Mono core library (for CLI 4.5)
+ii  libmono-cscompmgd0.0-cil                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono cscompmgd library (for CLI 4.0)
+ii  libmono-csharp4.0c-cil                                      6.12.0.182-0xamarin1+debian10b1                              all          Mono.CSharp library (for CLI 4.0)
+ii  libmono-custommarshalers4.0-cil                             6.12.0.182-0xamarin1+debian10b1                              all          Mono CustomMarshalers library (for CLI 4.0)
+ii  libmono-data-tds4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono Data Library (for CLI 4.0)
+ii  libmono-db2-1.0-cil                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono DB2 library
+ii  libmono-debugger-soft4.0a-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono Soft Debugger library (for CLI 4.0)
+ii  libmono-http4.0-cil                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono.Http library (for CLI 4.0)
+ii  libmono-i18n-cjk4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N.CJK library (for CLI 4.0)
+ii  libmono-i18n-mideast4.0-cil                                 6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N.MidEast library (for CLI 4.0)
+ii  libmono-i18n-other4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N.Other library (for CLI 4.0)
+ii  libmono-i18n-rare4.0-cil                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N.Rare library (for CLI 4.0)
+ii  libmono-i18n-west4.0-cil                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N.West library (for CLI 4.0)
+ii  libmono-i18n4.0-all                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N libraries metapackage (for CLI 4.0)
+ii  libmono-i18n4.0-cil                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono I18N base library (for CLI 4.0)
+ii  libmono-ldap4.0-cil                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono LDAP library (for CLI 4.0)
+ii  libmono-management4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono Management library (for CLI 4.0)
+ii  libmono-messaging-rabbitmq4.0-cil                           6.12.0.182-0xamarin1+debian10b1                              all          Mono Messaging RabbitMQ library (for CLI 4.0)
+ii  libmono-messaging4.0-cil                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono Messaging library (for CLI 4.0)
+ii  libmono-microsoft-build-engine4.0-cil                       6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Build.Engine library (for CLI 4.0)
+ii  libmono-microsoft-build-framework4.0-cil                    6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Build.Framework library (for CLI 4.0)
+ii  libmono-microsoft-build-tasks-v4.0-4.0-cil                  6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Build.Tasks.v4.0 library (for CLI 4.0)
+ii  libmono-microsoft-build-utilities-v4.0-4.0-cil              6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Build.Utilities.v4.0 library (for CLI 4.0)
+ii  libmono-microsoft-build4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Build library (for CLI 4.0)
+ii  libmono-microsoft-csharp4.0-cil                             6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.CSharp library (for CLI 4.0)
+ii  libmono-microsoft-visualbasic10.0-cil                       4.7-0xamarin3+debian10b1                                     all          Visual Basic 2012 runtime libraries for Mono
+ii  libmono-microsoft-visualc10.0-cil                           6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.VisualC library (for CLI 4.0)
+ii  libmono-microsoft-web-infrastructure1.0-cil                 6.12.0.182-0xamarin1+debian10b1                              all          Mono Microsoft.Web.Infrastructure library (for CLI 4.0)
+ii  libmono-oracle4.0-cil                                       6.12.0.182-0xamarin1+debian10b1                              all          Mono Oracle library (for CLI 4.0)
+ii  libmono-parallel4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono.Parallel library (for CLI 4.0)
+ii  libmono-peapi4.0a-cil                                       6.12.0.182-0xamarin1+debian10b1                              all          Mono PEAPI library (for CLI 4.0)
+ii  libmono-posix4.0-cil                                        6.12.0.182-0xamarin1+debian10b1                              all          Mono.Posix library (for CLI 4.0)
+ii  libmono-rabbitmq4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono RabbitMQ.Client library (for CLI 4.0)
+ii  libmono-relaxng4.0-cil                                      6.12.0.182-0xamarin1+debian10b1                              all          Mono Relaxng library (for CLI 4.0)
+ii  libmono-security4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono Security library (for CLI 4.0)
+ii  libmono-sharpzip4.84-cil                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono SharpZipLib library (for CLI 4.0)
+ii  libmono-simd4.0-cil                                         6.12.0.182-0xamarin1+debian10b1                              all          Mono SIMD (for CLI 4.0)
+ii  libmono-smdiagnostics0.0-cil                                6.12.0.182-0xamarin1+debian10b1                              all          Mono SMDiagnostics Library (for CLI 4.0)
+ii  libmono-sqlite4.0-cil                                       6.12.0.182-0xamarin1+debian10b1                              all          Mono Sqlite library (for CLI 4.0)
+ii  libmono-system-componentmodel-composition4.0-cil            6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ComponentModel.Composition library (for CLI 4.0)
+ii  libmono-system-componentmodel-dataannotations4.0-cil        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ComponentModel.DataAnnotations library (for CLI 4.0)
+ii  libmono-system-configuration-install4.0-cil                 6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Configuration.Install library (for CLI 4.0)
+ii  libmono-system-configuration4.0-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Configuration library (for CLI 4.0)
+ii  libmono-system-core4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Core library (for CLI 4.0)
+ii  libmono-system-data-datasetextensions4.0-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data.DataSetExtensions library (for CLI 4.0)
+ii  libmono-system-data-entity4.0-cil                           6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data.Entity library (for CLI 4.0)
+ii  libmono-system-data-linq4.0-cil                             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data.Linq Library (for CLI 4.0)
+ii  libmono-system-data-services-client4.0-cil                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data.Services.Client library (for CLI 4.0)
+ii  libmono-system-data-services4.0-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data.Services library (for CLI 4.0)
+ii  libmono-system-data4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Data library (for CLI 4.0)
+ii  libmono-system-deployment4.0-cil                            6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Deployment library (for CLI 4.0)
+ii  libmono-system-design4.0-cil                                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Design Library (for CLI 4.0)
+ii  libmono-system-drawing-design4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Drawing.Design (for CLI 4.0)
+ii  libmono-system-drawing4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Drawing library (for CLI 4.0)
+ii  libmono-system-dynamic4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Dynamic library (for CLI 4.0)
+ii  libmono-system-enterpriseservices4.0-cil                    6.12.0.182-0xamarin1+debian10b1                              all          Mono System.EnterpriseServices library (for CLI 4.0)
+ii  libmono-system-identitymodel-selectors4.0-cil               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.IdentityModel.Selectors Library (for CLI 4.0)
+ii  libmono-system-identitymodel4.0-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.IdentityModel Library (for CLI 4.0)
+ii  libmono-system-io-compression-filesystem4.0-cil             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.IO.Compresion.FileSystem library (for CLI 4.0)
+ii  libmono-system-io-compression4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.IO.Compression library (for CLI 4.0)
+ii  libmono-system-json-microsoft4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Json.Microsoft library (for CLI 4.0)
+ii  libmono-system-json4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Json library (for CLI 4.0)
+ii  libmono-system-ldap-protocols4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.DirectoryServices.Protocols library (for CLI 4.0)
+ii  libmono-system-ldap4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.DirectoryServices library (for CLI 4.0)
+ii  libmono-system-management4.0-cil                            6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Management library (for CLI 4.0)
+ii  libmono-system-messaging4.0-cil                             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Messaging library (for CLI 4.0)
+ii  libmono-system-net-http-formatting4.0-cil                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Net.Http.Formatting library (for CLI 4.0)
+ii  libmono-system-net-http-webrequest4.0-cil                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Net.Http.WebRequest library (for CLI 4.0)
+ii  libmono-system-net-http4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Net.Http library (for CLI 4.0)
+ii  libmono-system-net4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Net library (for CLI 4.0)
+ii  libmono-system-numerics-vectors4.0-cil                      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Numerics.Vectors library (for CLI 4.0)
+ii  libmono-system-numerics4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Numerics library (for CLI 4.0)
+ii  libmono-system-reactive-core2.2-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Core Library (for CLI 4.5)
+ii  libmono-system-reactive-debugger2.2-cil                     6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Debugger Library (for CLI 4.5)
+ii  libmono-system-reactive-experimental2.2-cil                 6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Experimental Library (for CLI 4.5)
+ii  libmono-system-reactive-interfaces2.2-cil                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Interfaces Library (for CLI 4.5)
+ii  libmono-system-reactive-linq2.2-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Linq Library (for CLI 4.5)
+ii  libmono-system-reactive-observable-aliases0.0-cil           6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Linq Library (for CLI 4.5)
+ii  libmono-system-reactive-platformservices2.2-cil             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.PlatformServices Library (for CLI 4.5)
+ii  libmono-system-reactive-providers2.2-cil                    6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Providers Library (for CLI 4.5)
+ii  libmono-system-reactive-runtime-remoting2.2-cil             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Runtime.Remoting Library (for CLI 4.5)
+ii  libmono-system-reactive-windows-forms2.2-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Windows.Forms Library (for CLI 4.5)
+ii  libmono-system-reactive-windows-threading2.2-cil            6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reactive.Windows.Threading Library (for CLI 4.5)
+ii  libmono-system-reflection-context4.0-cil                    6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Reflection.Context library (for CLI 4.0)
+ii  libmono-system-runtime-caching4.0-cil                       6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Runtime.Caching Library (for CLI 4.0)
+ii  libmono-system-runtime-durableinstancing4.0-cil             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Runtime.DurableInstancing Library (for CLI 4.0)
+ii  libmono-system-runtime-serialization-formatters-soap4.0-cil 6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Runtime.Serialization.Formatters.Soap Library (for CLI 4.0)
+ii  libmono-system-runtime-serialization4.0-cil                 6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Runtime.Serialization Library (for CLI 4.0)
+ii  libmono-system-runtime4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Runtime library (for CLI 4.0)
+ii  libmono-system-security4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Security library (for CLI 4.0)
+ii  libmono-system-servicemodel-activation4.0-cil               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel.Activation Library (for CLI 4.0)
+ii  libmono-system-servicemodel-discovery4.0-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel.Discovery Library (for CLI 4.0)
+ii  libmono-system-servicemodel-internals0.0-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel.Internals Library (for CLI 4.0)
+ii  libmono-system-servicemodel-routing4.0-cil                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel.Routing Library (for CLI 4.0)
+ii  libmono-system-servicemodel-web4.0-cil                      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel.Web Library (for CLI 4.0)
+ii  libmono-system-servicemodel4.0a-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceModel Library (for CLI 4.0)
+ii  libmono-system-serviceprocess4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.ServiceProcess library (for CLI 4.0)
+ii  libmono-system-threading-tasks-dataflow4.0-cil              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Threading.Tasks.Dataflow library (for CLI 4.0)
+ii  libmono-system-transactions4.0-cil                          6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Transactions library (for CLI 4.0)
+ii  libmono-system-web-abstractions4.0-cil                      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Abstractions library (for CLI 4.0)
+ii  libmono-system-web-applicationservices4.0-cil               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.ApplicationServices library (for CLI 4.0)
+ii  libmono-system-web-dynamicdata4.0-cil                       6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.DynamicData library (for CLI 4.0)
+ii  libmono-system-web-extensions-design4.0-cil                 6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Extensions.Design library (for CLI 4.0)
+ii  libmono-system-web-extensions4.0-cil                        6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Extensions library (for CLI 4.0)
+ii  libmono-system-web-http-selfhost4.0-cil                     6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Http.SelfHost library (for CLI 4.0)
+ii  libmono-system-web-http-webhost4.0-cil                      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Http.WebHost library (for CLI 4.0)
+ii  libmono-system-web-http4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Http library (for CLI 4.0)
+ii  libmono-system-web-mobile4.0-cil                            6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Mobile library (for CLI 4.0)
+ii  libmono-system-web-mvc3.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono ASP.NET MVC 3.0 Library (for CLI 4.0)
+ii  libmono-system-web-razor2.0-cil                             6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Razor (for CLI 4.0)
+ii  libmono-system-web-regularexpressions4.0-cil                6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.RegularExpressions library (for CLI 4.0)
+ii  libmono-system-web-routing4.0-cil                           6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Routing (for CLI 4.0)
+ii  libmono-system-web-services4.0-cil                          6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.Services (for CLI 4.0)
+ii  libmono-system-web-webpages-deployment2.0-cil               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.WebPages.Deployment (for CLI 4.0)
+ii  libmono-system-web-webpages-razor2.0-cil                    6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.WebPages.Razor (for CLI 4.0)
+ii  libmono-system-web-webpages2.0-cil                          6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web.WebPages (for CLI 4.0)
+ii  libmono-system-web4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Web library (for CLI 4.0)
+ii  libmono-system-windows-forms-datavisualization4.0a-cil      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Windows.Forms.DataVisualization Library (for CLI 4.0)
+ii  libmono-system-windows-forms4.0-cil                         6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Windows.Forms Library (for CLI 4.0)
+ii  libmono-system-windows4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Windows library (for CLI 4.0)
+ii  libmono-system-workflow-activities4.0-cil                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Workflow.Activities library (for CLI 4.0)
+ii  libmono-system-workflow-componentmodel4.0-cil               6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Workflow.ComponentModel library (for CLI 4.0)
+ii  libmono-system-workflow-runtime4.0-cil                      6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Workflow.Runtime library (for CLI 4.0)
+ii  libmono-system-xaml4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Xaml Library (for CLI 4.0)
+ii  libmono-system-xml-linq4.0-cil                              6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Xml.Linq library (for CLI 4.0)
+ii  libmono-system-xml-serialization4.0-cil                     6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Xml.Serialization library (for CLI 4.0)
+ii  libmono-system-xml4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono System.Xml library (for CLI 4.0)
+ii  libmono-system4.0-cil                                       6.12.0.182-0xamarin1+debian10b1                              all          Mono System libraries (for CLI 4.0)
+ii  libmono-tasklets4.0-cil                                     6.12.0.182-0xamarin1+debian10b1                              all          Mono Tasklets library (for CLI 4.0)
+ii  libmono-webbrowser4.0-cil                                   6.12.0.182-0xamarin1+debian10b1                              all          Mono Web Browser library (for CLI 4.0)
+ii  libmono-webmatrix-data4.0-cil                               6.12.0.182-0xamarin1+debian10b1                              all          Mono WebMatrix.Data Library (for CLI 4.0)
+ii  libmono-windowsbase4.0-cil                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono WindowsBase library (for CLI 4.0)
+ii  libmono-xbuild-tasks4.0-cil                                 6.12.0.182-0xamarin1+debian10b1                              all          Mono Mono.XBuild.Tasks library (for CLI 4.0)
+ii  libmonosgen-2.0-1                                           6.12.0.182-0xamarin1+debian10b1                              amd64        Mono JIT library (SGen GC)
+ii  libmonosgen-2.0-dev                                         6.12.0.182-0xamarin1+debian10b1                              amd64        Mono JIT library - Development files (SGen GC)
+ii  libmount1:amd64                                             2.33.1-0.1                                                   amd64        device mounting library
+ii  libncursesw6:amd64                                          6.1+20181013-2+deb10u3                                       amd64        shared libraries for terminal handling (wide character support)
+ii  libnettle6:amd64                                            3.4.1-1+deb10u1                                              amd64        low level cryptographic library (symmetric and one-way cryptos)
+ii  libnghttp2-14:amd64                                         1.36.0-2+deb10u1                                             amd64        library implementing HTTP/2 protocol (shared library)
+ii  libnginx-mod-http-auth-pam                                  1.14.2-2+deb10u5                                             amd64        PAM authentication module for Nginx
+ii  libnginx-mod-http-cache-purge                               1.14.2-2+deb10u5                                             amd64        Purge content from Nginx caches
+ii  libnginx-mod-http-dav-ext                                   1.14.2-2+deb10u5                                             amd64        WebDAV missing commands support for Nginx
+ii  libnginx-mod-http-echo                                      1.14.2-2+deb10u5                                             amd64        Bring echo and more shell style goodies to Nginx
+ii  libnginx-mod-http-fancyindex                                1.14.2-2+deb10u5                                             amd64        Fancy indexes module for the Nginx
+ii  libnginx-mod-http-geoip                                     1.14.2-2+deb10u5                                             amd64        GeoIP HTTP module for Nginx
+ii  libnginx-mod-http-headers-more-filter                       1.14.2-2+deb10u5                                             amd64        Set and clear input and output headers for Nginx
+ii  libnginx-mod-http-image-filter                              1.14.2-2+deb10u5                                             amd64        HTTP image filter module for Nginx
+ii  libnginx-mod-http-lua                                       1.14.2-2+deb10u5                                             amd64        Lua module for Nginx
+ii  libnginx-mod-http-ndk                                       1.14.2-2+deb10u5                                             amd64        Nginx Development Kit module
+ii  libnginx-mod-http-perl                                      1.14.2-2+deb10u5                                             amd64        Perl module for Nginx
+ii  libnginx-mod-http-subs-filter                               1.14.2-2+deb10u5                                             amd64        Substitution filter module for Nginx
+ii  libnginx-mod-http-uploadprogress                            1.14.2-2+deb10u5                                             amd64        Upload progress system for Nginx
+ii  libnginx-mod-http-upstream-fair                             1.14.2-2+deb10u5                                             amd64        Nginx Upstream Fair Proxy Load Balancer
+ii  libnginx-mod-http-xslt-filter                               1.14.2-2+deb10u5                                             amd64        XSLT Transformation module for Nginx
+ii  libnginx-mod-mail                                           1.14.2-2+deb10u5                                             amd64        Mail module for Nginx
+ii  libnginx-mod-nchan                                          1.14.2-2+deb10u5                                             amd64        Fast, flexible pub/sub server for Nginx
+ii  libnginx-mod-stream                                         1.14.2-2+deb10u5                                             amd64        Stream module for Nginx
+ii  libp11-kit0:amd64                                           0.23.15-2+deb10u1                                            amd64        library for loading and coordinating access to PKCS#11 modules - runtime
+ii  libpam-cap:amd64                                            1:2.25-2                                                     amd64        POSIX 1003.1e capabilities (PAM module)
+ii  libpam-modules:amd64                                        1.3.1-5                                                      amd64        Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin                                          1.3.1-5                                                      amd64        Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-runtime                                              1.3.1-5                                                      all          Runtime support for the PAM library
+ii  libpam0g:amd64                                              1.3.1-5                                                      amd64        Pluggable Authentication Modules library
+ii  libpcre3:amd64                                              2:8.39-12                                                    amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
+ii  libperl5.28:amd64                                           5.28.1-6+deb10u1                                             amd64        shared Perl library
+ii  libpipeline1:amd64                                          1.5.1-2                                                      amd64        pipeline manipulation library
+ii  libpixman-1-0:amd64                                         0.36.0-1+deb10u1                                             amd64        pixel-manipulation library for X and cairo
+ii  libpng16-16:amd64                                           1.6.36-6                                                     amd64        PNG library - runtime (version 1.6)
+ii  libpsl5:amd64                                               0.20.2-2                                                     amd64        Library for Public Suffix List (shared libraries)
+ii  libpython-stdlib:amd64                                      2.7.16-1                                                     amd64        interactive high-level object-oriented language (Python2)
+ii  libpython2-stdlib:amd64                                     2.7.16-1                                                     amd64        interactive high-level object-oriented language (Python2)
+ii  libpython2.7-minimal:amd64                                  2.7.16-2+deb10u2                                             amd64        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:amd64                                   2.7.16-2+deb10u2                                             amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libreadline7:amd64                                          7.0-5                                                        amd64        GNU readline and history libraries, run-time libraries
+ii  librtmp1:amd64                                              2.4+20151223.gitfa8646d.1-2                                  amd64        toolkit for RTMP streams (shared library)
+ii  libsasl2-2:amd64                                            2.1.27+dfsg-1+deb10u2                                        amd64        Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules:amd64                                      2.1.27+dfsg-1+deb10u2                                        amd64        Cyrus SASL - pluggable authentication modules
+ii  libsasl2-modules-db:amd64                                   2.1.27+dfsg-1+deb10u2                                        amd64        Cyrus SASL - pluggable authentication modules (DB)
+ii  libseccomp2:amd64                                           2.3.3-4                                                      amd64        high level interface to Linux seccomp filter
+ii  libselinux1:amd64                                           2.8-1+b1                                                     amd64        SELinux runtime shared libraries
+ii  libsemanage-common                                          2.8-2                                                        all          Common files for SELinux policy management libraries
+ii  libsemanage1:amd64                                          2.8-2                                                        amd64        SELinux policy management library
+ii  libsepol1:amd64                                             2.8-1                                                        amd64        SELinux library for manipulating binary security policies
+ii  libsmartcols1:amd64                                         2.33.1-0.1                                                   amd64        smart column output alignment library
+ii  libsqlite3-0:amd64                                          3.27.2-3+deb10u2                                             amd64        SQLite 3 shared library
+ii  libss2:amd64                                                1.44.5-1+deb10u3                                             amd64        command-line interface parsing library
+ii  libssh2-1:amd64                                             1.8.0-2.1                                                    amd64        SSH2 client-side library
+ii  libssl1.1:amd64                                             1.1.1n-0+deb10u5                                             amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libstdc++6:amd64                                            8.3.0-6                                                      amd64        GNU Standard C++ Library v3
+ii  libsystemd0:amd64                                           241-7~deb10u10                                               amd64        systemd utility library
+ii  libtasn1-6:amd64                                            4.13-3+deb10u1                                               amd64        Manage ASN.1 structures (runtime)
+ii  libtiff5:amd64                                              4.1.0+git191117-2~deb10u7                                    amd64        Tag Image File Format (TIFF) library
+ii  libtinfo6:amd64                                             6.1+20181013-2+deb10u3                                       amd64        shared low-level terminfo library for terminal handling
+ii  libudev1:amd64                                              241-7~deb10u10                                               amd64        libudev shared library
+ii  libunistring2:amd64                                         0.9.10-1                                                     amd64        Unicode string library for C
+ii  libuuid1:amd64                                              2.33.1-0.1                                                   amd64        Universally Unique ID library
+ii  libwebp6:amd64                                              0.6.1-2+deb10u2                                              amd64        Lossy compression of digital photographic images.
+ii  libx11-6:amd64                                              2:1.6.7-1+deb10u3                                            amd64        X11 client-side library
+ii  libx11-data                                                 2:1.6.7-1+deb10u3                                            all          X11 client-side library
+ii  libxau6:amd64                                               1:1.0.8-1+b2                                                 amd64        X11 authorisation library
+ii  libxcb-render0:amd64                                        1.13.1-2                                                     amd64        X C Binding, render extension
+ii  libxcb-shm0:amd64                                           1.13.1-2                                                     amd64        X C Binding, shm extension
+ii  libxcb1:amd64                                               1.13.1-2                                                     amd64        X C Binding
+ii  libxdmcp6:amd64                                             1:1.1.2-3                                                    amd64        X11 Display Manager Control Protocol library
+ii  libxext6:amd64                                              2:1.3.3-1+b2                                                 amd64        X11 miscellaneous extension library
+ii  libxml2:amd64                                               2.9.4+dfsg1-7+deb10u6                                        amd64        GNOME XML library
+ii  libxpm4:amd64                                               1:3.5.12-1+deb10u1                                           amd64        X11 pixmap library
+ii  libxrender1:amd64                                           1:0.9.10-1                                                   amd64        X Rendering Extension client library
+ii  libxslt1.1:amd64                                            1.1.32-2.2~deb10u2                                           amd64        XSLT 1.0 processing library - runtime library
+ii  libxtables12:amd64                                          1.8.2-4                                                      amd64        netfilter xtables library
+ii  libzstd1:amd64                                              1.3.8+dfsg-3+deb10u2                                         amd64        fast lossless compression algorithm
+ii  login                                                       1:4.5-1.1                                                    amd64        system login tools
+ii  lsb-base                                                    10.2019051400                                                all          Linux Standard Base init script functionality
+ii  mawk                                                        1.3.3-17+b3                                                  amd64        a pattern scanning and text processing language
+ii  mime-support                                                3.62                                                         all          MIME files 'mime.types' & 'mailcap', and support programs
+ii  mono-4.0-gac                                                6.12.0.182-0xamarin1+debian10b1                              all          Mono GAC tool (for CLI 4.0)
+ii  mono-csharp-shell                                           6.12.0.182-0xamarin1+debian10b1                              all          interactive C# shell
+ii  mono-devel                                                  6.12.0.182-0xamarin1+debian10b1                              all          Mono development tools
+ii  mono-fastcgi-server4                                        4.7.1-0xamarin3+debian10b1                                   all          ASP.NET 4.0 backend for FastCGI webservers
+ii  mono-gac                                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono GAC tool
+ii  mono-llvm-support                                           6.12.0.182-0xamarin1+debian10b1                              amd64        Mono runtime - SGen
+ii  mono-llvm-tools                                             6.0+mono20190708165219-0xamarin2+debian10b1                  amd64        opt and llc for Mono llvm mode
+ii  mono-mcs                                                    6.12.0.182-0xamarin1+debian10b1                              all          Mono C# 2.0 / 3.0 / 4.0 / 5.0  compiler for CLI 2.0 / 4.0 / 4.5
+ii  mono-roslyn                                                 6.12.0.182-0xamarin1+debian10b1                              all          Microsoft C# compiler
+ii  mono-runtime                                                6.12.0.182-0xamarin1+debian10b1                              amd64        Mono runtime - default version
+ii  mono-runtime-common                                         6.12.0.182-0xamarin1+debian10b1                              amd64        Mono runtime - common files
+ii  mono-runtime-sgen                                           6.12.0.182-0xamarin1+debian10b1                              amd64        Mono runtime - SGen
+ii  mono-vbnc                                                   4.7-0xamarin3+debian10b1                                     all          Mono Visual Basic Compiler (VB.NET)
+ii  mono-xbuild                                                 6.12.0.182-0xamarin1+debian10b1                              all          MSBuild-compatible build system for Mono
+ii  mono-xsp4-base                                              4.7.1-0xamarin3+debian10b1                                   all          base libraries for XSP 4.0
+ii  mount                                                       2.33.1-0.1                                                   amd64        tools for mounting and manipulating filesystems
+ii  msbuild                                                     1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+debian10b1 all          build platform for .NET and Visual Studio
+ii  msbuild-libhostfxr                                          3.0.0.2019.04.16.02.13-0xamarin4+debian10b1                  amd64        Helper library for MSbuild .NET Core support
+ii  msbuild-sdkresolver                                         1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+debian10b1 all          build platform for .NET and Visual Studio
+ii  ncurses-base                                                6.1+20181013-2+deb10u3                                       all          basic terminal type definitions
+ii  ncurses-bin                                                 6.1+20181013-2+deb10u3                                       amd64        terminal-related programs and man pages
+ii  netbase                                                     5.6                                                          all          Basic TCP/IP networking system
+ii  nginx                                                       1.14.2-2+deb10u5                                             all          small, powerful, scalable web/proxy server
+ii  nginx-common                                                1.14.2-2+deb10u5                                             all          small, powerful, scalable web/proxy server - common files
+ii  nginx-extras                                                1.14.2-2+deb10u5                                             amd64        nginx web/proxy server (extended version)
+ii  nuget                                                       6.6.1.2.bin-0xamarin3+debian10b1                             all          Package manager for NuGet repos - executable
+ii  openssl                                                     1.1.1n-0+deb10u5                                             amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  passwd                                                      1:4.5-1.1                                                    amd64        change and administer password and group data
+ii  perl                                                        5.28.1-6+deb10u1                                             amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                                                   5.28.1-6+deb10u1                                             amd64        minimal Perl system
+ii  perl-modules-5.28                                           5.28.1-6+deb10u1                                             all          Core Perl modules
+ii  pkg-config                                                  0.29-6                                                       amd64        manage compile and link flags for libraries
+ii  publicsuffix                                                20220811.1734-0+deb10u1                                      all          accurate, machine-readable list of domain name suffixes
+ii  python                                                      2.7.16-1                                                     amd64        interactive high-level object-oriented language (Python2 version)
+ii  python-meld3                                                1.0.2-2                                                      all          HTML/XML templating system for Python
+ii  python-minimal                                              2.7.16-1                                                     amd64        minimal subset of the Python2 language
+ii  python-pkg-resources                                        40.8.0-1                                                     all          Package Discovery and Resource Access using pkg_resources
+ii  python2                                                     2.7.16-1                                                     amd64        interactive high-level object-oriented language (Python2 version)
+ii  python2-minimal                                             2.7.16-1                                                     amd64        minimal subset of the Python2 language
+ii  python2.7                                                   2.7.16-2+deb10u2                                             amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-minimal                                           2.7.16-2+deb10u2                                             amd64        Minimal subset of the Python language (version 2.7)
+ii  readline-common                                             7.0-5                                                        all          GNU readline and history libraries, common files
+ii  referenceassemblies-pcl                                     2014.04.14-1xamarin7+debian10b1                              all          Portable Library Reference Assemblies for .NET
+ii  sed                                                         4.7-1                                                        amd64        GNU stream editor for filtering/transforming text
+ii  sensible-utils                                              0.0.12                                                       all          Utilities for sensible alternative selection
+ii  shared-mime-info                                            1.10-1                                                       amd64        FreeDesktop.org shared MIME database and spec
+ii  supervisor                                                  3.3.5-1                                                      all          System for controlling process state
+ii  sysvinit-utils                                              2.93-8                                                       amd64        System-V-like utilities
+ii  tar                                                         1.30+dfsg-6                                                  amd64        GNU version of the tar archiving utility
+ii  tzdata                                                      2021a-0+deb10u11                                             all          time zone and daylight-saving time data
+ii  ucf                                                         3.0038+nmu1                                                  all          Update Configuration File(s): preserve user changes to config files
+ii  util-linux                                                  2.33.1-0.1                                                   amd64        miscellaneous system utilities
+ii  xdg-user-dirs                                               0.17-2                                                       amd64        tool to manage well known user directories
+ii  xz-utils                                                    5.2.4-1+deb10u1                                              amd64        XZ-format compression utilities
+ii  zlib1g:amd64                                                1:1.2.11.dfsg-1+deb10u2                                      amd64        compression library - runtime
